@@ -6,6 +6,7 @@ import tkinter as tk
 from tkinter import *
 from tkinter import ttk
 
+import aide
 import openpyxl
 import xlrd as xl
 from PIL import Image, ImageTk
