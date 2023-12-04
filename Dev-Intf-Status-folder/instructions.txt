@@ -36,8 +36,6 @@ INSTALL THE BELOW PYTHON PACKAGES IN COMMAND PROMPT:
 
 pip3 install tk
 pip3 install xlsxwriter
-pip3 install csv
-pip3 install pandas
 pip3 install openpyxl
 
 
@@ -78,7 +76,7 @@ If there is "AIDE", uninstall it using "pip uninstall AIDE" or "pip uninstall ai
 ===================================================
 
 
-Download the Device-interface-status automation file from github, link: https://github.com/rkumarm2/dav-report-rkumarm2
+Download the Device-interface-status automation file from github, link: https://github.com/rkumarm2/Device-interface-status/tree/main
 Click on "CODE", then "Download ZIP"
 
 execute the python automation file, through cmd prompt:
