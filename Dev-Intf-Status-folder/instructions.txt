@@ -1,0 +1,100 @@
+CHECK IF PYTHON IS INSTALLED OR NOT, IN THE COMMAND PROMPT:
+
+python --version
+
+
+
+===================================================
+===================================================
+
+
+IF NOT INSTALLED, INSTALL IT (python 3.11) USING:
+
+For windows: https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe (Tick the checkbox for "Add python 3.11 to Path" )
+
+For MAC:     https://www.python.org/ftp/python/3.11.5/python-3.11.5-macos11.pkg (Tick the checkbox for "Add python 3.11 to Path" )
+
+
+you can also use the latest and higher python version by going to : https://www.python.org/downloads/
+
+===================================================
+===================================================
+
+
+INSTALL LASTEST VERSION OF PIP IN COMMAND PROMPT:
+
+py -m pip install --upgrade pip
+
+
+
+===================================================
+===================================================
+
+INSTALL THE BELOW PYTHON PACKAGES IN COMMAND PROMPT:
+
+
+
+pip3 install tk
+pip3 install xlsxwriter
+pip3 install csv
+pip3 install pandas
+pip3 install openpyxl
+
+
+===================================================
+===================================================
+
+
+INSTALL CISCO'S OFFICIAL AIDE-PYTHON-AGENT (THIS SHOULD BE DOWNLOADED FROM GITHUB LINK ONLY):
+
+
+OPEN THIS LINK IN BROWSER:
+
+https://wwwin-github.cisco.com/AIDE/aide-python-agent
+
+
+
+
+Click on the green button "CODE" , and then select the option "Download ZIP"
+Unzip the downloaded ZIP folder. We now have the unzipped folder. Delete the previous ZIP folder.
+Use the Command prompt to install the aide-python-agent.
+
+
+Open command prompt and type:
+
+set PBR_VERSION=4.1.0 
+pip install <in your aide-python-agent directory, where "setup" python file is present>
+
+NOTE:
+DO NOT TYPE "pip install aide" in command prompt, as it will download some other aide python moodule which was made by MIT college student in US.
+
+
+To check if you have this module, in command prompt type: "pip list"
+"aide-python-agent" should be in the list of downloaded modules, and there should not be "AIDE" in there.
+If there is "AIDE", uninstall it using "pip uninstall AIDE" or "pip uninstall aide"
+
+
+===================================================
+===================================================
+
+
+Download the Device-interface-status automation file from github, link: https://github.com/rkumarm2/dav-report-rkumarm2
+Click on "CODE", then "Download ZIP"
+
+execute the python automation file, through cmd prompt:
+
+cd <The directory where dev-intf-status python file is, which is inside the downloaded folder.>
+
+
+
+python dev-intf-status.py 
+
+
+===================================================
+===================================================
+
+A UI will appear in which you have to input one excel file and one txt file.
+The output file will be downloaded in the folder where dev-intf-status.py python file is.
+
+
+
