@@ -17,6 +17,14 @@ from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
 
 
+aide.submit_statistics(
+        pid = "933120",
+        tool_id="656d70036887b1184c355cb3",
+        metadata={
+            "potential_savings": 4,  # Hours
+            "report_savings": True,
+        },
+    )
 
 
 def open_file():
